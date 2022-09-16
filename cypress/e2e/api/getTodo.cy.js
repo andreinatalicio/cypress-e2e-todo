@@ -29,7 +29,7 @@ describe("Get to-do item", () => {
 
 describe("Get to-do item", () => {
   it("should try to get a non-existent to-do item", () => {
-    const id = 999;
+    const id = 99999;
     cy.api_getTodo(id).then((response) => {
       expect(response.status).to.equal(404);
     });

@@ -14,6 +14,6 @@ module.exports = defineConfig({
   },
 
   env: {
-    API_TOKEN: "kQ1JqbQFMzqb58a2NH3i6AKYQ5t7YASFgitH",
+    apiToken: "d9TJjEJ8DfTd2wphezrXP1VPSYZPpEem4y1u",
   },
 });

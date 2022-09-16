@@ -33,7 +33,7 @@ describe("Update to-do item", () => {
 
 describe("Update to-do item", () => {
   it("should try to update a non-existent to-do item", () => {
-    const id = 999;
+    const id = 99999;
     const description = "Buy milk";
 
     cy.api_updateTodo(id, description).then((response) => {

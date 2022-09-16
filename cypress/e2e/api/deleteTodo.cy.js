@@ -22,7 +22,7 @@ describe("Delete to-do item", () => {
 
 describe("Delete to-do item", () => {
   it("should try to delete a non-existent to-do item", () => {
-    const id = 999;
+    const id = 99999;
     cy.api_deleteTodo(id).then((response) => {
       expect(response.status).to.equal(404);
     });
